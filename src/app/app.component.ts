@@ -12,20 +12,6 @@ import { FormsModule } from '@angular/forms';
 })
 export class AppComponent {
 
-  protected edadUno: number = 0;
-  protected edadDos: number = 0;
-  protected suma: number = 0;
-  protected promedio: number = 0;
 
-  protected onBtn()
-  {
-    //this.title="hola";
-  }
-
-  protected calcularEdadYPromedio()
-  {
-    this.suma = this.edadUno + this.edadDos;
-    this.promedio = this.suma / 2;
-  }
 }
  
